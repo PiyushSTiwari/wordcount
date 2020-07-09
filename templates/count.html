@@ -1,0 +1,10 @@
+<a  href="{% url 'home' %}">back to homepage</a>
+<br>
+
+this is count page<br>
+{{data_list}}<br>
+{{total_word}}<br><br>
+{%for word,value in word_dict%}
+    {{word}} = {{value}}
+    <br>
+{% endfor %}
